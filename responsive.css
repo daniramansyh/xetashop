@@ -1,0 +1,62 @@
+/* tab */
+@media only screen and (max-width: 850px) {
+    .iklan{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content{
+        width: 500px;
+        height: 250px;
+        text-align: center;
+    }
+    .content p{
+        font-size: 50px;
+        line-height: 55px;
+        margin-bottom: 10px;
+    }
+    button {
+        font-size: 15px;
+    }
+    .img1{
+        width: 350px;
+        height: 350px;
+        border-radius: 100px 100px 0px 0px;
+        margin: 0% 5% 5%;
+    }
+    .img2{
+        width: 350px;
+        height: 350px;
+        border-radius: 90px 0px 90px 0px;
+        margin: 0% 5% 5%;
+    }
+    .text{
+        font-size: 23px;
+    }
+    .card-1{
+        display: flex;
+        justify-content: center;
+    }
+    .card-2{
+        padding: 0%;
+    }
+    .teks-jenis{
+        font-size: 27px;
+    }
+    .jenis img{
+        width: 200px;
+    }
+    #kategori-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .teks-kategori{
+        width: 400px;
+        font-size: 30px;
+    }
+}
+/* andro */
+@media only screen and (max-width: 652px) {
+    
+}
