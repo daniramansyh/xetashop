@@ -25,6 +25,7 @@ nav{
     color: black;
     font-size: 35px;
     padding-right: 25px;
+    font-style: italic;
 }
 nav ul li{
     list-style-type: none;
@@ -149,7 +150,7 @@ button i{
 }
 footer{
     background-color: gray;
-    padding: 5%;
+    padding: 8%;
 }
 .edit{
     display: flex;

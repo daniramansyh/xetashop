@@ -57,6 +57,59 @@
     }
 }
 /* andro */
-@media only screen and (max-width: 652px) {
-    
+@media only screen and (max-width: 655px) {
+    nav{
+        font-size: 15px;
+    }
+    .nav-logo{
+        font-size: 25px;
+    }
+    .content{
+        width: 380px;
+    }
+    .content p{
+        font-size: 40px;
+    }
+    button {
+        font-size: 15px;
+    }
+    .img1{
+        width: 280px;
+        height: 250px;
+        border-radius: 150px 150px 0px 0px;
+    }
+    .img2{
+        display: none;
+    }
+    #content-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text{
+        width: 380px;
+        font-size: 18px;
+    }
+    .card-1{
+        width: 380px;
+    }
+    .card-isi img{
+        width: 200px;
+    }
+    .teks-jenis{
+        font-size: 25px;
+    }
+    .jenis img{
+        width: 200px;
+    }
+    .teks-kategori{
+        width: 350px;
+    }
+    .edit{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logo{
+        width: 100%;
+    }
 }
