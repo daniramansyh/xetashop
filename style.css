@@ -9,13 +9,15 @@ header{
     height: auto;
     width: 100%;
     background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 nav{
     width: 90%;
     height: 70px;
     background-color: white;
     border-radius: 0px 0px 30px 30px;
-    margin-left: 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -37,8 +39,8 @@ nav ul li a{
     text-decoration: none;
     font-weight: bold;
     transition: all;
-    transition-duration: .4s;
-    border-bottom: 1px solid #e9c4f900;
+    transition-duration: .5s;
+    border-bottom: 2px solid #e9c4f900;
     padding-bottom: 5px;
 }
 nav ul li a:hover{
@@ -46,8 +48,8 @@ nav ul li a:hover{
 }
 .iklan{
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .content{
     width: 600px;
@@ -70,7 +72,7 @@ button i{
 .img1{
     width: 400px;
     border-radius: 130px 0px 130px 0px;
-    margin: 120px 70px 0px 0px;
+    margin: 120px 5% 5% 5%;
 }
 .img2{
     width: 290px;
@@ -83,7 +85,6 @@ button i{
     padding: 5%;
 }
 .text{
-    font-size: 30px;
     text-align: center;
     font-weight: bold;
     padding-bottom: 2%;

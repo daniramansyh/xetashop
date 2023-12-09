@@ -113,3 +113,51 @@
         width: 100%;
     }
 }
+
+/* hp kicik */
+@media only screen and (max-width: 417px) {
+    nav{
+        width: 90%;
+        height: 50px;
+        font-size: 12px;
+    }
+    .nav-logo{
+        font-size: 23px;
+    }
+    .content{
+        width: 280px;
+        margin: 0;
+    }
+    .content p{
+        font-size: 30px;
+    }
+    .img1{
+        margin: 0px 0px 10px 0px;
+    }
+    .card-1{
+        width: 300px;
+    }
+    .card-isi img{
+        width: 150px;
+    }
+    .text{
+        width: 300px;
+        font-size: 14px;
+    }
+    .kiri{
+        width: 290px;
+    }
+    .teks-kategori{
+        width: 290px;
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    nav ul{
+        font-size: 12px;
+    }
+    .nav-logo{
+        padding-right: 10px;
+        font-size: 15px;
+    }
+}
